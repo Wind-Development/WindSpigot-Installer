@@ -85,7 +85,7 @@ public class Installer {
 		// Log some messages
 		log("Download Complete :) This version of WindSpigot now has " + jarAsset.getDownloadCount() + " installs!");
 		log("Saved as WindSpigot.jar");
-		log("You now have the latest version of WindSpigot installed.");
+		log("You now have the latest release of WindSpigot installed.");
 
 	}
 
