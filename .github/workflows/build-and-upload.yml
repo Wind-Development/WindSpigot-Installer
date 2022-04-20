@@ -1,7 +1,7 @@
 # This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 
-name: Java CI with Maven
+name: Build and Upload
 
 on:
   push:
@@ -27,4 +27,4 @@ jobs:
       uses: actions/upload-artifact@v2.2.0
       with:
         name: WindSpigot-Installer
-        path: ${{ github.workspace }}/installer/installer-1.0.jar
+        path: ${{ github.workspace }}/target/installer-1.0.jar
